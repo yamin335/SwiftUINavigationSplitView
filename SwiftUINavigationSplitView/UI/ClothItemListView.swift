@@ -15,9 +15,7 @@ struct ClothItemListView: View {
         NavigationStack(path: $path.animation(.easeOut)) {
             VStack {
                 ForEach(Array(listOfCloths.enumerated()), id: \.offset) { index, item in
-                    Button(action: {
-                        path.append(item)
-                    }) {
+                    NavigationLink(value: item) {
                         ListItem(label: item.name)
                     }
                 }

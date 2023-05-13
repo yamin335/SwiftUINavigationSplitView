@@ -20,26 +20,20 @@ let listOfCloths: [Cloth] = [
 ]
 
 struct ContentView: View {
-    @State var selectedMenu: String?
-    @State var menu: [String] = ["Yummy Foods 🍕", "Fashionable Cloths 🛍️"]
+    @State private var selection = 0
     
     var body: some View {
-        NavigationSplitView {
-            List(menu, id: \.self, selection: $selectedMenu, rowContent: Text.init)
-        } detail: {
-            if let item = selectedMenu {
-                if item == menu[0] {
-                    FoodItemListView()
-                } else {
-                    ClothItemListView()
-                }
-            } else {
-                Text("Please select an item to show")
+        TabView(selection: $selection.animation(.easeOut)){
+            TwoColumnSplitView().tabItem {
+                Label("Two Column", systemImage: "rectangle.trailinghalf.inset.filled")
             }
-        }
-//        .navigationDestination(for: Cloth.self) { clothItem in
-//            ClothItemDetailsView(item: clothItem, path: $path)
-//        }
+            .tag(0)
+            
+            ThreeColumnSplitView().tabItem {
+                Label("Three Column", systemImage: "rectangle.trailingthird.inset.filled")
+            }
+            .tag(1)
+        }.accentColor(.red).edgesIgnoringSafeArea(.top)
     }
 }
 

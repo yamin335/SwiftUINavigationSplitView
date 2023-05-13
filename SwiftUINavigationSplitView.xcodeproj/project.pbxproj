@@ -19,6 +19,10 @@
 		6EA55FB82A0FB8290069FB57 /* ClothItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA55FB72A0FB8290069FB57 /* ClothItemListView.swift */; };
 		6EA55FBA2A0FB8B90069FB57 /* ClothItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA55FB92A0FB8B90069FB57 /* ClothItemDetailsView.swift */; };
 		6EA55FBF2A0FBD050069FB57 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA55FBE2A0FBD050069FB57 /* DataModels.swift */; };
+		6EA55FF72A0FCCB40069FB57 /* TwoColumnSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA55FF62A0FCCB40069FB57 /* TwoColumnSplitView.swift */; };
+		6EA55FF92A0FCCCE0069FB57 /* ThreeColumnSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA55FF82A0FCCCE0069FB57 /* ThreeColumnSplitView.swift */; };
+		6EA55FFB2A0FCF550069FB57 /* FoodDetailFor3Col.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA55FFA2A0FCF550069FB57 /* FoodDetailFor3Col.swift */; };
+		6EA55FFD2A0FCF640069FB57 /* ClothDetailFor3Col.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA55FFC2A0FCF640069FB57 /* ClothDetailFor3Col.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		6EA55FB72A0FB8290069FB57 /* ClothItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothItemListView.swift; sourceTree = "<group>"; };
 		6EA55FB92A0FB8B90069FB57 /* ClothItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothItemDetailsView.swift; sourceTree = "<group>"; };
 		6EA55FBE2A0FBD050069FB57 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		6EA55FF62A0FCCB40069FB57 /* TwoColumnSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnSplitView.swift; sourceTree = "<group>"; };
+		6EA55FF82A0FCCCE0069FB57 /* ThreeColumnSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeColumnSplitView.swift; sourceTree = "<group>"; };
+		6EA55FFA2A0FCF550069FB57 /* FoodDetailFor3Col.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailFor3Col.swift; sourceTree = "<group>"; };
+		6EA55FFC2A0FCF640069FB57 /* ClothDetailFor3Col.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothDetailFor3Col.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,10 @@
 				6EA55FB52A0FB4B00069FB57 /* FoodItemDetailsView.swift */,
 				6EA55FB72A0FB8290069FB57 /* ClothItemListView.swift */,
 				6EA55FB92A0FB8B90069FB57 /* ClothItemDetailsView.swift */,
+				6EA55FF62A0FCCB40069FB57 /* TwoColumnSplitView.swift */,
+				6EA55FF82A0FCCCE0069FB57 /* ThreeColumnSplitView.swift */,
+				6EA55FFA2A0FCF550069FB57 /* FoodDetailFor3Col.swift */,
+				6EA55FFC2A0FCF640069FB57 /* ClothDetailFor3Col.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -298,11 +310,15 @@
 			files = (
 				6EA55FB62A0FB4B00069FB57 /* FoodItemDetailsView.swift in Sources */,
 				6EA55FBA2A0FB8B90069FB57 /* ClothItemDetailsView.swift in Sources */,
+				6EA55FF72A0FCCB40069FB57 /* TwoColumnSplitView.swift in Sources */,
 				6EA55FB82A0FB8290069FB57 /* ClothItemListView.swift in Sources */,
+				6EA55FFD2A0FCF640069FB57 /* ClothDetailFor3Col.swift in Sources */,
+				6EA55FF92A0FCCCE0069FB57 /* ThreeColumnSplitView.swift in Sources */,
 				6E8467902A0E9B7A006BDE1C /* ContentView.swift in Sources */,
 				6EA55FBF2A0FBD050069FB57 /* DataModels.swift in Sources */,
 				6EA55FB42A0FB1C90069FB57 /* FoodItemListView.swift in Sources */,
 				6E84678E2A0E9B7A006BDE1C /* SwiftUINavigationSplitViewApp.swift in Sources */,
+				6EA55FFB2A0FCF550069FB57 /* FoodDetailFor3Col.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
